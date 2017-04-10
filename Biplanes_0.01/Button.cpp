@@ -23,7 +23,7 @@ void Button::setPosition(float X, float Y)
 
 void Button::update()
 {
-	text_.setColor(sf::Color::White);
+	text_.setFillColor(sf::Color::White);
 	text_.setCharacterSize(19);
 	text_.setOrigin(text_.getGlobalBounds().width / 2,
 					text_.getGlobalBounds().height);
@@ -39,7 +39,7 @@ void Button::update()
 
 	if (isSelected_)
 	{
-		text_.setColor(sf::Color(6, 45, 110));
+		text_.setFillColor(sf::Color(6, 45, 110));
 		rectangle_.setFillColor(sf::Color(0, 153, 153));
 		rectangle_.setOutlineThickness(1);
 		rectangle_.setOutlineColor(sf::Color(0, 191, 50));

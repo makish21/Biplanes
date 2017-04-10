@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Engine">
+      <UniqueIdentifier>{542b66d6-248b-45a3-9e2b-da62ba9ecc70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Engine">
+      <UniqueIdentifier>{bc2e3dc0-78c4-47aa-8ba3-7a92c3f9158d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Game">
+      <UniqueIdentifier>{10b45468-b409-4ca0-9c35-7a2fcb4a1ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game">
+      <UniqueIdentifier>{4a490992-d147-4af8-92f1-1ed1169a7883}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Drawable.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\InputHandler.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Plane.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Transformable.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\World.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameProcessState.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Map.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Unit.cpp">
+      <Filter>Файлы исходного кода\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Commands.hpp">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Drawable.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\InputHandler.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Plane.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Transformable.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\World.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Заголовочные файлы\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameState.hpp">
+      <Filter>Заголовочные файлы\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameProcessState.h">
+      <Filter>Заголовочные файлы\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Map.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Unit.h">
+      <Filter>Заголовочные файлы\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
